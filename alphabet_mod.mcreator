@@ -1,0 +1,585 @@
+{
+  "mod_elements": [
+    {
+      "name": "LetraA",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_a.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraAItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Alphabet",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphabet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/world/inventory/AlphabetMenu.java",
+          "src/main/java/net/mcreator/alphabetmod/network/AlphabetButtonMessage.java",
+          "src/main/java/net/mcreator/alphabetmod/client/gui/AlphabetScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "DecifradorDeCodigos",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decifrador_de_codigos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/block/DecifradorDeCodigosBlock.java",
+          "src/main/resources/assets/alphabet_mod/blockstates/decifrador_de_codigos.json",
+          "src/main/resources/assets/alphabet_mod/models/item/decifrador_de_codigos.json",
+          "src/main/java/net/mcreator/alphabetmod/block/entity/DecifradorDeCodigosBlockEntity.java",
+          "src/main/resources/assets/alphabet_mod/models/block/decifrador_de_codigos.json"
+        ]
+      }
+    },
+    {
+      "name": "DecifradorDeCodigosOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decifrador_de_codigos_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/procedures/DecifradorDeCodigosOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LetraB",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraBItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_b.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraC",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraCItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_c.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraD",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_d",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraDItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_d.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraE",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_e",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraEItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_e.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraF",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_f",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_f.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraFItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraG",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_g",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraGItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_g.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraH",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_h",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraHItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_h.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraI",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_i",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_i.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraIItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraJ",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_j",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_j.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraJItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraK",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_k",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraKItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_k.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraL",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_l",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraLItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_l.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraM",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_m",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_m.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraMItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraN",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_n",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraNItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_n.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraO",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_o",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_o.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraOItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraP",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraPItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_p.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraQ",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_q",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraQItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_q.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraR",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_r.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraRItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraS",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_s",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/LetraSItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/letra_s.json"
+        ]
+      }
+    },
+    {
+      "name": "LetraT",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_t",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_t.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraTItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraU",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_u",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_u.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraUItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraV",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_v",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_v.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraVItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraW",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_w",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_w.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraWItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraX",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_x.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraXItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraY",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_y.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraYItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetraZ",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letra_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alphabet_mod/models/item/letra_z.json",
+          "src/main/java/net/mcreator/alphabetmod/item/LetraZItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LetrasAlphabet",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letras_alphabet",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CodeCraftingTableInventoryWhileThisGUISOpenTick",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "code_crafting_table_inventory_while_this_guis_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/procedures/CodeCraftingTableInventoryWhileThisGUISOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeLove",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_love",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/procedures/RecipeLoveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AzSmpItem",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "az_smp_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/AzSmpItemItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/az_smp_item.json"
+        ]
+      },
+      "path": "~/ItensEspeciais"
+    },
+    {
+      "name": "Getboolean",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "getboolean",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/command/GetbooleanCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.alphabet_mod.letra_x": "Letra A",
+      "item.alphabet_mod.letra_y": "Letra A",
+      "gui.alphabet_mod.alphabet.button_testar": "Testar",
+      "item.alphabet_mod.letra_v": "Letra A",
+      "item.alphabet_mod.letra_w": "Letra A",
+      "item.alphabet_mod.letra_t": "Letra A",
+      "item.alphabet_mod.letra_u": "Letra A",
+      "item.alphabet_mod.letra_r": "Letra A",
+      "block.alphabet_mod.decifrador_de_codigos": "Decifrador De Codigos",
+      "item.alphabet_mod.letra_s": "Letra A",
+      "item.alphabet_mod.letra_z": "Letra A",
+      "item.alphabet_mod.letra_h": "Letra A",
+      "item.alphabet_mod.letra_i": "Letra A",
+      "item.alphabet_mod.letra_f": "Letra A",
+      "item.alphabet_mod.letra_g": "Letra A",
+      "item.alphabet_mod.letra_d": "Letra A",
+      "item.alphabet_mod.az_smp_item": "Az Smp Item",
+      "item.alphabet_mod.letra_e": "Letra A",
+      "item.alphabet_mod.letra_b": "Letra B",
+      "item.alphabet_mod.letra_c": "Letra A",
+      "item.alphabet_mod.letra_p": "Letra A",
+      "item.alphabet_mod.letra_q": "Letra A",
+      "item.alphabet_mod.letra_n": "Letra A",
+      "item.alphabet_mod.letra_o": "Letra A",
+      "item.alphabet_mod.letra_l": "Letra A",
+      "item.alphabet_mod.letra_m": "Letra A",
+      "item.alphabet_mod.letra_j": "Letra A",
+      "itemGroup.tabletras_alphabet": "Letras Alphabet",
+      "item.alphabet_mod.letra_k": "Letra A",
+      "item.alphabet_mod.letra_a": "Letra A",
+      "gui.alphabet_mod.alphabet.label_decifrador_de_codigos": "Decifrador de códigos",
+      "gui.alphabet_mod.alphabet.label_output": "Output \u003e"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "ItensEspeciais",
+        "children": []
+      },
+      {
+        "name": "commands",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "alphabet_mod",
+    "modName": "Alphabet mod",
+    "version": "1.0.0",
+    "author": "fernshadows, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "azsmp_square_png",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.alphabetmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

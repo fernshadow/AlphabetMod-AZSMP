@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alphabet_mod:block/decifrador_de_codigos"
+    },
+    "facing=east": {
+      "model": "alphabet_mod:block/decifrador_de_codigos",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alphabet_mod:block/decifrador_de_codigos",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alphabet_mod:block/decifrador_de_codigos",
+      "y": 270
+    }
+  }
+}
