@@ -74,6 +74,7 @@ public class AlphabetModModItems {
 	public static final RegistryObject<Item> LETRA_Z = REGISTRY.register("letra_z", () -> new LetraZItem());
 	public static final RegistryObject<Item> AZ_SMP_ITEM = REGISTRY.register("az_smp_item", () -> new AzSmpItemItem());
 	public static final RegistryObject<Item> HEART_AMOR = REGISTRY.register("heart_amor", () -> new HeartAmorItem());
+	public static final RegistryObject<Item> ALPHABET_CRYSTAL = block(AlphabetModModBlocks.ALPHABET_CRYSTAL, CreativeModeTab.TAB_MISC);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

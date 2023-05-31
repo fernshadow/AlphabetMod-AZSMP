@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.alphabetmod.init.AlphabetModModTabs;
 import net.mcreator.alphabetmod.init.AlphabetModModItems;
+import net.mcreator.alphabetmod.init.AlphabetModModFeatures;
 import net.mcreator.alphabetmod.init.AlphabetModModBlocks;
 import net.mcreator.alphabetmod.init.AlphabetModModBlockEntities;
 
@@ -50,6 +51,7 @@ public class AlphabetModMod {
 		AlphabetModModItems.REGISTRY.register(bus);
 
 		AlphabetModModBlockEntities.REGISTRY.register(bus);
+		AlphabetModModFeatures.REGISTRY.register(bus);
 
 	}
 

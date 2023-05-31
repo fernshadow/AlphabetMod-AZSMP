@@ -17,5 +17,6 @@ public class CodeCraftingTableInventoryWhileThisGUISOpenTickProcedure {
 			_player.containerMenu.broadcastChanges();
 		}
 		RecipeLoveProcedure.execute(world, entity);
+		RecipeTestProcedure.execute(entity);
 	}
 }

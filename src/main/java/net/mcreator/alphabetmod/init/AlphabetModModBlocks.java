@@ -15,11 +15,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.alphabetmod.block.DecifradorDeCodigosBlock;
+import net.mcreator.alphabetmod.block.AlphabetCrystalBlock;
 import net.mcreator.alphabetmod.AlphabetModMod;
 
 public class AlphabetModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, AlphabetModMod.MODID);
 	public static final RegistryObject<Block> DECIFRADOR_DE_CODIGOS = REGISTRY.register("decifrador_de_codigos", () -> new DecifradorDeCodigosBlock());
+	public static final RegistryObject<Block> ALPHABET_CRYSTAL = REGISTRY.register("alphabet_crystal", () -> new AlphabetCrystalBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

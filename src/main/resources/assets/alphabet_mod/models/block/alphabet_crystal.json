@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alphabet_mod:blocks/maquinafrente",
+    "up": "alphabet_mod:blocks/maquinafrente",
+    "north": "alphabet_mod:blocks/maquinafrente",
+    "east": "alphabet_mod:blocks/maquinafrente",
+    "south": "alphabet_mod:blocks/maquinafrente",
+    "west": "alphabet_mod:blocks/maquinafrente",
+    "particle": "alphabet_mod:blocks/particlebreakore"
+  }
+}
