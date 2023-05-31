@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "x",
+    "texture": "corasao",
     "customModelName": "Normal",
-    "name": "Letra X",
+    "name": "Coração do mundo",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:LetrasAlphabet"
+      "value": "MISC"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -23,9 +23,9 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
-    "damageVsEntity": 2.0,
+    "damageVsEntity": 0.0,
     "specialInfo": [
-      "Letra X"
+      "Hora de amar..."
     ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",

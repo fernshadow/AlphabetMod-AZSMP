@@ -12,7 +12,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_a.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraAItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "Alphabet",
@@ -26,7 +27,8 @@
           "src/main/java/net/mcreator/alphabetmod/network/AlphabetButtonMessage.java",
           "src/main/java/net/mcreator/alphabetmod/client/gui/AlphabetScreen.java"
         ]
-      }
+      },
+      "path": "~/DecifradorDeCodigos"
     },
     {
       "name": "DecifradorDeCodigos",
@@ -43,7 +45,8 @@
           "src/main/java/net/mcreator/alphabetmod/block/entity/DecifradorDeCodigosBlockEntity.java",
           "src/main/resources/assets/alphabet_mod/models/block/decifrador_de_codigos.json"
         ]
-      }
+      },
+      "path": "~/DecifradorDeCodigos"
     },
     {
       "name": "DecifradorDeCodigosOnBlockRightClicked",
@@ -78,7 +81,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "LetraB",
@@ -92,7 +96,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraBItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_b.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraC",
@@ -106,7 +111,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraCItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_c.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraD",
@@ -120,7 +126,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraDItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_d.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraE",
@@ -134,7 +141,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraEItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_e.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraF",
@@ -148,7 +156,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_f.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraFItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraG",
@@ -162,7 +171,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraGItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_g.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraH",
@@ -176,7 +186,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraHItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_h.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraI",
@@ -190,7 +201,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_i.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraIItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraJ",
@@ -204,7 +216,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_j.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraJItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraK",
@@ -218,7 +231,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraKItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_k.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraL",
@@ -232,7 +246,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraLItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_l.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraM",
@@ -246,7 +261,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_m.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraMItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraN",
@@ -260,7 +276,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraNItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_n.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraO",
@@ -274,7 +291,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_o.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraOItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraP",
@@ -288,7 +306,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraPItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_p.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraQ",
@@ -302,7 +321,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraQItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_q.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraR",
@@ -316,7 +336,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_r.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraRItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraS",
@@ -330,7 +351,8 @@
           "src/main/java/net/mcreator/alphabetmod/item/LetraSItem.java",
           "src/main/resources/assets/alphabet_mod/models/item/letra_s.json"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraT",
@@ -344,7 +366,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_t.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraTItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraU",
@@ -358,7 +381,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_u.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraUItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraV",
@@ -372,7 +396,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_v.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraVItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraW",
@@ -386,7 +411,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_w.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraWItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraX",
@@ -400,7 +426,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_x.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraXItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraY",
@@ -414,7 +441,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_y.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraYItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetraZ",
@@ -428,7 +456,8 @@
           "src/main/resources/assets/alphabet_mod/models/item/letra_z.json",
           "src/main/java/net/mcreator/alphabetmod/item/LetraZItem.java"
         ]
-      }
+      },
+      "path": "~/Letras"
     },
     {
       "name": "LetrasAlphabet",
@@ -455,9 +484,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "RecipeLove",
@@ -474,9 +508,14 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "AzSmpItem",
@@ -505,41 +544,281 @@
         ]
       },
       "path": "~/commands"
+    },
+    {
+      "name": "HeartAmor",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_amor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/item/HeartAmorItem.java",
+          "src/main/resources/assets/alphabet_mod/models/item/heart_amor.json"
+        ]
+      },
+      "path": "~/ItensEspeciais"
+    },
+    {
+      "name": "RecipeTest",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alphabetmod/procedures/RecipeTestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "canCraftAmor",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftA",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "cancraftB",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftC",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftD",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftE",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftF",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftG",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftH",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftI",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftJ",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftK",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftL",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftM",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftN",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftO",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftP",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftQ",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftR",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftS",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftT",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftU",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftV",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftW",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftX",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftY",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftZ",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "canCraftSingleLetter",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.alphabet_mod.letra_x": "Letra A",
-      "item.alphabet_mod.letra_y": "Letra A",
+      "item.alphabet_mod.letra_x": "Letra X",
+      "item.alphabet_mod.letra_y": "Letra Y",
       "gui.alphabet_mod.alphabet.button_testar": "Testar",
-      "item.alphabet_mod.letra_v": "Letra A",
-      "item.alphabet_mod.letra_w": "Letra A",
-      "item.alphabet_mod.letra_t": "Letra A",
-      "item.alphabet_mod.letra_u": "Letra A",
-      "item.alphabet_mod.letra_r": "Letra A",
+      "item.alphabet_mod.letra_v": "Letra V",
+      "item.alphabet_mod.letra_w": "Letra W",
+      "item.alphabet_mod.letra_t": "Letra T",
+      "item.alphabet_mod.letra_u": "Letra U",
+      "item.alphabet_mod.letra_r": "Letra R",
       "block.alphabet_mod.decifrador_de_codigos": "Decifrador De Codigos",
-      "item.alphabet_mod.letra_s": "Letra A",
-      "item.alphabet_mod.letra_z": "Letra A",
-      "item.alphabet_mod.letra_h": "Letra A",
-      "item.alphabet_mod.letra_i": "Letra A",
-      "item.alphabet_mod.letra_f": "Letra A",
-      "item.alphabet_mod.letra_g": "Letra A",
-      "item.alphabet_mod.letra_d": "Letra A",
+      "item.alphabet_mod.letra_s": "Letra S",
+      "item.alphabet_mod.letra_z": "Letra Z",
+      "item.alphabet_mod.letra_h": "Letra H",
+      "item.alphabet_mod.letra_i": "Letra I",
+      "item.alphabet_mod.letra_f": "Letra F",
+      "item.alphabet_mod.letra_g": "Letra G",
+      "item.alphabet_mod.letra_d": "Letra D",
       "item.alphabet_mod.az_smp_item": "Az Smp Item",
-      "item.alphabet_mod.letra_e": "Letra A",
+      "item.alphabet_mod.letra_e": "Letra E",
       "item.alphabet_mod.letra_b": "Letra B",
-      "item.alphabet_mod.letra_c": "Letra A",
-      "item.alphabet_mod.letra_p": "Letra A",
-      "item.alphabet_mod.letra_q": "Letra A",
-      "item.alphabet_mod.letra_n": "Letra A",
-      "item.alphabet_mod.letra_o": "Letra A",
-      "item.alphabet_mod.letra_l": "Letra A",
-      "item.alphabet_mod.letra_m": "Letra A",
-      "item.alphabet_mod.letra_j": "Letra A",
+      "item.alphabet_mod.heart_amor": "Coração do mundo",
+      "item.alphabet_mod.letra_c": "Letra C",
+      "item.alphabet_mod.letra_p": "Letra P",
+      "item.alphabet_mod.letra_q": "Letra Q",
+      "item.alphabet_mod.letra_n": "Letra N",
+      "item.alphabet_mod.letra_o": "Letra O",
+      "item.alphabet_mod.letra_l": "Letra L",
+      "item.alphabet_mod.letra_m": "Letra M",
+      "item.alphabet_mod.letra_j": "Letra J",
       "itemGroup.tabletras_alphabet": "Letras Alphabet",
-      "item.alphabet_mod.letra_k": "Letra A",
+      "item.alphabet_mod.letra_k": "Letra K",
+      "item.alphabet_mod.letra_a": "Letra A",
+      "gui.alphabet_mod.alphabet.label_decifrador_de_codigos": "Decifrador de códigos",
+      "gui.alphabet_mod.alphabet.label_output": "Output \u003e"
+    },
+    "pt_br": {
+      "item.alphabet_mod.letra_x": "Letra X",
+      "item.alphabet_mod.letra_y": "Letra Y",
+      "gui.alphabet_mod.alphabet.button_testar": "Testar",
+      "item.alphabet_mod.letra_v": "Letra V",
+      "item.alphabet_mod.letra_w": "Letra W",
+      "item.alphabet_mod.letra_t": "Letra T",
+      "item.alphabet_mod.letra_u": "Letra U",
+      "item.alphabet_mod.letra_r": "Letra R",
+      "block.alphabet_mod.decifrador_de_codigos": "Decifrador De Codigos",
+      "item.alphabet_mod.letra_s": "Letra S",
+      "item.alphabet_mod.letra_z": "Letra Z",
+      "item.alphabet_mod.letra_h": "Letra H",
+      "item.alphabet_mod.letra_i": "Letra I",
+      "item.alphabet_mod.letra_f": "Letra F",
+      "item.alphabet_mod.letra_g": "Letra G",
+      "item.alphabet_mod.letra_d": "Letra D",
+      "item.alphabet_mod.az_smp_item": "Az Smp Item",
+      "item.alphabet_mod.letra_e": "Letra E",
+      "item.alphabet_mod.letra_b": "Letra B",
+      "item.alphabet_mod.heart_amor": "Coração do mundo",
+      "item.alphabet_mod.letra_c": "Letra C",
+      "item.alphabet_mod.letra_p": "Letra P",
+      "item.alphabet_mod.letra_q": "Letra Q",
+      "item.alphabet_mod.letra_n": "Letra N",
+      "item.alphabet_mod.letra_o": "Letra O",
+      "item.alphabet_mod.letra_l": "Letra L",
+      "item.alphabet_mod.letra_m": "Letra M",
+      "item.alphabet_mod.letra_j": "Letra J",
+      "itemGroup.tabletras_alphabet": "Letras Alphabet",
+      "item.alphabet_mod.letra_k": "Letra K",
       "item.alphabet_mod.letra_a": "Letra A",
       "gui.alphabet_mod.alphabet.label_decifrador_de_codigos": "Decifrador de códigos",
       "gui.alphabet_mod.alphabet.label_output": "Output \u003e"
@@ -558,6 +837,18 @@
       },
       {
         "name": "commands",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Letras",
+        "children": []
+      },
+      {
+        "name": "DecifradorDeCodigos",
         "children": []
       }
     ]

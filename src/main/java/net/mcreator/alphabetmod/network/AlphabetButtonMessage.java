@@ -64,7 +64,7 @@ public class AlphabetButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			CodeCraftingTableInventoryWhileThisGUISOpenTickProcedure.execute(entity);
+			CodeCraftingTableInventoryWhileThisGUISOpenTickProcedure.execute(world, entity);
 		}
 	}
 

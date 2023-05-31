@@ -39,6 +39,7 @@ import net.mcreator.alphabetmod.item.LetraDItem;
 import net.mcreator.alphabetmod.item.LetraCItem;
 import net.mcreator.alphabetmod.item.LetraBItem;
 import net.mcreator.alphabetmod.item.LetraAItem;
+import net.mcreator.alphabetmod.item.HeartAmorItem;
 import net.mcreator.alphabetmod.item.AzSmpItemItem;
 import net.mcreator.alphabetmod.AlphabetModMod;
 
@@ -72,6 +73,7 @@ public class AlphabetModModItems {
 	public static final RegistryObject<Item> LETRA_Y = REGISTRY.register("letra_y", () -> new LetraYItem());
 	public static final RegistryObject<Item> LETRA_Z = REGISTRY.register("letra_z", () -> new LetraZItem());
 	public static final RegistryObject<Item> AZ_SMP_ITEM = REGISTRY.register("az_smp_item", () -> new AzSmpItemItem());
+	public static final RegistryObject<Item> HEART_AMOR = REGISTRY.register("heart_amor", () -> new HeartAmorItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

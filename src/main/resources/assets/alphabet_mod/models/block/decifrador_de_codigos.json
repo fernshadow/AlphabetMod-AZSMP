@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "alphabet_mod:blocks/maquinalado",
-    "up": "alphabet_mod:blocks/front",
-    "north": "alphabet_mod:blocks/front_1",
-    "east": "alphabet_mod:blocks/maquinalado",
-    "south": "alphabet_mod:blocks/maquinalado",
-    "west": "alphabet_mod:blocks/maquinalado",
-    "particle": "alphabet_mod:blocks/maquinalado"
+    "down": "alphabet_mod:blocks/front_1",
+    "up": "alphabet_mod:blocks/front_1",
+    "north": "alphabet_mod:blocks/front",
+    "east": "alphabet_mod:blocks/front_1",
+    "south": "alphabet_mod:blocks/front_1",
+    "west": "alphabet_mod:blocks/front_1",
+    "particle": "alphabet_mod:blocks/front_1"
   }
 }
